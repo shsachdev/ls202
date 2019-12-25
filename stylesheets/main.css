@@ -17,7 +17,6 @@ output, ruby, summary, time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  font-family: "Palatino Linotype", "Book Antiqua",serif;
 }
 /* HTML 5 display role reset for older browsers */
 article, aside, details, figcaption, figure, footer,
