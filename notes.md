@@ -9,3 +9,6 @@ As a rule, HTML will always represent content, and CSS will always represent the
 of that content.
 
 The 3 common HTML terms you should begin with are *elements*, *tags*, and *attributes*.
+
+There are also a few common CSS terms to familiarize yourself with. These terms include
+selectors, properties, and values. 
