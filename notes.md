@@ -30,3 +30,31 @@ Teaching Assistants, you can apply a class of `teaching-assistant` to each TA's 
   </tbody>
 </table>
 ```
+
+- Use the `class` attribute to assign a class or classes to an element.
+- Any number of elements may belong to the same class.
+- Any element can belong to one or more classes. List all the names separated
+by spaces in the `class` attribute, e.g, `class="executive management full-time"`
+- Prefer semantic class names; they should provide meaning. For instance, use `teaching-assistant`
+rather than `yellow-background`.
+- Use CSS class selectors (`.classname`) to select elements by class, e.g., `.teaching-assistant`.
+- Class selectors have lower CSS specificity than ID selectors (an ID selector overrides a class selector),
+but higher than tag name selectors.
+
+# IDs
+
+The `ID` attribute applies a unique identification string to a single element, such as a headline; no other
+`id` attributes on the page should have the same ID.
+
+```html
+<h1>This is a plain h1 heading</h1>
+<h1 id="headline">This is my headline</h1>
+```
+You can now give it some styling that is unique to it:
+
+```css
+#headline {
+  color: red;
+  font-size: 48px;
+}
+```
