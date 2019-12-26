@@ -99,4 +99,4 @@ name attribute, too, but with a different meaning.
 - Always use a `name` attribute on form elements that accept it.
 - Each name in a form should be unique to that form except for radio buttons and checkboxes that belong to a single group.
 - Use descriptive `name` values, not semantic. For instance, use `name="last-name"` instead of `name="input-field"`.
-- Avoid trying to select elements in CSS by using the `name` attribute. 
+- Avoid trying to select elements in CSS by using the `name` attribute.
