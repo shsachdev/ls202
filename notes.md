@@ -58,3 +58,45 @@ You can now give it some styling that is unique to it:
   font-size: 48px;
 }
 ```
+
+- Use the `ID` attribute to assign an ID to an element.
+- Each ID on a page must be unique.
+- Each element can have one ID or none.
+- Use semantic ID names; they should provide meaning. For instance, use an ID name
+of `headline` rather than `big-font`.
+- Use CSS ID selectors (`#idname`) to select elements by ID.
+- ID selectors have higher CSS specificity than class selectors (an ID selector can override a class selector.)
+
+# Names
+
+The `name` attribute ties form elements to data on the server - it typically does not play a role in styling.
+
+When you submit a form, the browser sends the form data to the server using name/value pairs in which each name
+comes from the associated `name` attribute. For instance:
+
+```html
+<form method="get" action="#">
+  <label for="first-name-field">First name:</label>
+  <input type="text" name="first-name" id="first-name-field" />
+
+  <label for="last-name-field">Last name:</label>
+  <input type="text" name="last-name" id="last-name-field" />
+
+  <input type="submit" value="search" />
+</form>
+```
+
+When you submit this form, the browser constructs a query string that looks like this:
+
+```
+first-name=Joe&last-name=Jones
+```
+Note that the browser does not send the `id` attribute value to the server.
+
+- Use the `name` attribute to assign a name to a form data element that the server can use to obtain the value.
+- Not all tags accept the name `name` attribute; it applies to input controls in forms. Some other elements have a
+name attribute, too, but with a different meaning.
+- Always use a `name` attribute on form elements that accept it.
+- Each name in a form should be unique to that form except for radio buttons and checkboxes that belong to a single group.
+- Use descriptive `name` values, not semantic. For instance, use `name="last-name"` instead of `name="input-field"`.
+- Avoid trying to select elements in CSS by using the `name` attribute. 
