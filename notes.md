@@ -11,4 +11,9 @@ of that content.
 The 3 common HTML terms you should begin with are *elements*, *tags*, and *attributes*.
 
 There are also a few common CSS terms to familiarize yourself with. These terms include
-selectors, properties, and values. 
+selectors, properties, and values.
+
+HTML provides three ways to identify certain elements: classes, ids, and names.
+Any element can use a class or id attribute, and a variety of elements can use the name attribute.
+
+The `Class` attribute
