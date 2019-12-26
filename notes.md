@@ -100,3 +100,12 @@ name attribute, too, but with a different meaning.
 - Each name in a form should be unique to that form except for radio buttons and checkboxes that belong to a single group.
 - Use descriptive `name` values, not semantic. For instance, use `name="last-name"` instead of `name="input-field"`.
 - Avoid trying to select elements in CSS by using the `name` attribute.
+
+
+# Some notes on CSS
+
+There are three main ways to use CSS in a web page: inline, internal, and external.
+
+- **Inline** CSS uses `style` attribute on individual HTML tags.
+- **Internal** CSS uses the `style` element to store all of the CSS in one place in the file.
+- **External** CSS stores the CSS in a file that is separate from the HTML file.
