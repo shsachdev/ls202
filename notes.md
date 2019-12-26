@@ -16,4 +16,17 @@ selectors, properties, and values.
 HTML provides three ways to identify certain elements: classes, ids, and names.
 Any element can use a class or id attribute, and a variety of elements can use the name attribute.
 
-The `Class` attribute
+The `Class` attribute identifies a set of page elements that you wish to style consistently.
+For instance, if you want to display a list of students, but highlight students who serve as
+Teaching Assistants, you can apply a class of `teaching-assistant` to each TA's data:
+
+```html
+<table>
+  <tbody>
+    <tr class="teaching-assistant">
+      <td>Elizabeth</td>
+      <td>JS230</td>
+    </tr>
+  </tbody>
+</table>
+```
