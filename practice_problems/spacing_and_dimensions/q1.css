@@ -1,5 +1,10 @@
 img {
   display: block;
-  width: 800px;
-  margin: 0 auto; /* this centers our image */ 
+  width: 100%;
+  min-width: 500px;
+  max-width: 800px;
+  margin: 0 auto; /* this centers our image */
 }
+
+/* Also note: auto margins work for block elements, but not inline or inline-block.
+So, you must also set the display style when trying to center an img. /*
