@@ -1,3 +1,5 @@
+/* HTML code
+
 /* <div>
   <img src="#" alt="test" />
 </div> */
@@ -24,4 +26,8 @@ img {
 /* What is the minimum width and height (in pixels) that the div needs to entirely contain
 the img element (including its margins)? */
 
-/* min width: 500 + 30 (margins) + 40 (padding) + 8 (border) + 2 (div margin) == 580 px
+/* min width: 500 + 30 (margins) + 40 (padding) + 8 (border) + 2 (div border) == 580 px
+
+/* min height: 300 + 8 (border) + 30 (margins) + 20 (padding) + 2 (div border) == 360 px
+
+Since the div uses border box sizing, it must have a width and height of at least 580px and 360px, respectively.

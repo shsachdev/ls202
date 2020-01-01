@@ -1,0 +1,32 @@
+/*
+
+<div>
+  <em>content</em>
+</div>
+
+*/
+
+div {
+  background-color: lightgray;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+em {
+  border: 4px solid red;
+  box-sizing: content-box;
+  display: inline;
+  height: 300px;
+  margin: 20px 19px 10px 11px;
+  padding: 10px 20px;
+  width: 500px
+}
+
+/* What is the minimum width and height that the div needs to entirely contain the em element?
+
+Since the em element is inline, the browser will ignore the width, height, and top and bottom
+margins specified in the CSS. For this reason, we cannot calculate the amount of space that any
+given em will take unless we know the actual width and height of the content.
