@@ -1,4 +1,20 @@
 figure {
-  margin: 50px;
-  outline: 1px solid red;
+  width: 50%;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 50px 0;
+  padding: 0 50px;
+}
+
+body {
+  background-image: url(http://d3jtzah944tvom.cloudfront.net/202/images/lesson_3/gradient-background.png);
+  background-size: cover;
+}
+
+figcaption {
+  text-align: center;
+}
+
+img {
+  width: 100%;
 }
