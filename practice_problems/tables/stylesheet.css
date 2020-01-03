@@ -1,9 +1,17 @@
 body {
   font-family: Franklin Gothic Heavy Arial;
+  border: solid black;
+  display: inline-block;
 }
 
 h1  {
-  font-size: 68px;
+  font-size: 70px;
+  font-family: Helvetica;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.serving-size {
   margin-bottom: 1px;
 }
 
