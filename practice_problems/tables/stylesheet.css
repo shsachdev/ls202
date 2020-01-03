@@ -36,6 +36,11 @@ h2 {
   border: 6px solid black;
 }
 
+.indented_underline {
+  border-top: 1px solid black;
+  align-self: right;
+}
+
 h3 {
   margin-top: 2px;
   font-family: Helvetica;
