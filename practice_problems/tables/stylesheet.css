@@ -1,11 +1,13 @@
 body {
-  font-family: Franklin Gothic Heavy Arial;
+  font-family: Helvetica;
   border: solid black;
   display: inline-block;
+  padding-right: 10px;
 }
 
 h1  {
   font-size: 70px;
+  margin-top: 0px;
   font-family: Helvetica;
   font-weight: bold;
   margin-bottom: 1px;
@@ -18,5 +20,22 @@ h1  {
 h2 {
   font-weight: normal;
   margin-top: 1px;
-  font-size: 30px;
+  font-size: 35px;
+  margin-bottom: 1px;
+}
+
+.first_underline {
+  border: 15px solid black;
+}
+
+.second_underline {
+  border-top: 1px solid black;
+}
+
+h3 {
+  margin-top: 2px;
+  font-family: Helvetica;
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 1px;
 }
