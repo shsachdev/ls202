@@ -3,5 +3,12 @@ body {
 }
 
 h1  {
-  font-size: 48px;
+  font-size: 68px;
+  margin-bottom: 1px;
+}
+
+h2 {
+  font-weight: normal;
+  margin-top: 1px;
+  font-size: 30px;
 }
