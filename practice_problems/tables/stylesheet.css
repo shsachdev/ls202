@@ -38,7 +38,8 @@ h2 {
 
 .indented_underline {
   border-top: 1px solid black;
-  align-self: right;
+  display: block;
+  margin-left: 40px;
 }
 
 h3 {
