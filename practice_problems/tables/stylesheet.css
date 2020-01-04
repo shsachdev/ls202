@@ -6,6 +6,10 @@ body {
   padding-left: 10px;
 }
 
+p {
+  font-size: 20px;
+}
+
 h1  {
   font-size: 70px;
   margin-top: 0px;
@@ -26,6 +30,7 @@ h2 {
 }
 
 .first_underline {
+  margin-top: 3px;
   border: 15px solid black;
 }
 
