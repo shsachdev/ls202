@@ -52,8 +52,8 @@ h2 {
   margin-left: 40px;
 }
 
-.indented_header {
-  width: 1rem;
+.indent {
+  text-indent: 20px;
 }
 
 h3 {
