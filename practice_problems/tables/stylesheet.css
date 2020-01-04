@@ -52,6 +52,10 @@ h2 {
   margin-left: 40px;
 }
 
+.indented_header {
+  width: 1rem;
+}
+
 h3 {
   margin-top: 2px;
   font-family: Helvetica;
