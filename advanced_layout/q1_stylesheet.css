@@ -1,0 +1,28 @@
+section {
+  width: 750px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  background-color: #ccc;
+}
+
+article {
+  width: 500px;
+  float: left;
+  background-color: yellow;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+aside {
+  width: 250px;
+  float: left;
+  background-color: green;
+  padding: 1rem;
+  box-sizing: border-box;
+}
