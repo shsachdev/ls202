@@ -1,5 +1,5 @@
 section {
-  width: 750px;
+  width: 1000px;
   background-color: white;
   margin: 0 auto;
   padding: 0;
@@ -12,7 +12,7 @@ body {
 }
 
 article {
-  width: 500px;
+  width: 70%;
   float: left;
   background-color: yellow;
   padding: 1rem;
@@ -20,9 +20,15 @@ article {
 }
 
 aside {
-  width: 250px;
-  float: left;
+  overflow: hidden;
+  float: none;
   background-color: green;
   padding: 1rem;
   box-sizing: border-box;
+}
+
+footer {
+  background-color: #ebecff;
+  clear: both;
+  padding: 1rem;
 }
