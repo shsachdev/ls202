@@ -1,0 +1,24 @@
+h1 {
+  color: #DC143C;
+  font-family: helvetica;
+  font-size: 22px;
+  position: relative;
+  left: 19px;
+  top: 19px;
+}
+
+p {
+  position: relative;
+  display: inline;
+  top: 35px;
+  left: 19px;
+}
+
+h2 {
+  color: #DC143C;
+  font-family: helvetica;
+  font-size: 19px;
+  position: relative;
+  left: 19px;
+  top: 50px;
+}
