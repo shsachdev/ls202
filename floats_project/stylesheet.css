@@ -1,24 +1,86 @@
-h1 {
-  color: #DC143C;
-  font-family: helvetica;
-  font-size: 22px;
-  position: relative;
-  left: 19px;
-  top: 19px;
+* {
+  box-sizing: border-box;
 }
 
-p {
-  position: relative;
-  display: inline;
-  top: 35px;
-  left: 19px;
+.cf::before,
+.cf::after {
+  content: "";
+  display: block;
 }
 
-h2 {
-  color: #DC143C;
-  font-family: helvetica;
-  font-size: 19px;
-  position: relative;
-  left: 19px;
-  top: 50px;
+body {
+  background-color: white;
+  color: #545459;
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+.container {
+  border: 2px solid #999;
+  margin: 0 auto;
+  padding: 20px;
+  width: 1000px;
+}
+
+section h1 {
+  font-size: 24px;
+}
+
+section h2 {
+  font-size: 20px;
+}
+
+section h3 {
+  font-size: 16px;
+}
+
+section h1,
+section h2,
+section h3 {
+  background-color: inherit; /* white */
+  color: #ce4a4a;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+section p {
+  line-height: 35px;
+  margin-bottom: 25px;
+}
+
+section .border {
+  border: 2px dashed #555;
+  margin: 45px;
+  padding: 30px;
+  width: 650px;
+}
+
+section .bold {
+  font-weight: bold;
+}
+
+section a {
+  background-color: inherit; /* white */
+  color: #333;
+  text-decoration: none;
+}
+
+section .inline-margin a {
+  margin: 30px;
+}
+
+section .inline-padding a {
+  background-color: green;
+  color: white;
+  padding: 30px;
+}
+
+section .inline-float a {
+  background-color: green;
+  border: 3px solid darkgreen;
+  color: white;
+  float: left;
+  margin: 15px;
+  padding: 25px;
+  text-align: center;
+  width: 120px;
 }
