@@ -4,10 +4,27 @@
     <meta charset="utf-8">
     <title>Phono - Headphones of the Future</title>
     <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="https://kit.fontawesome.com/ffe7388ee4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/simplelightbox.min.css">
     <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
   </head>
-  <body>
-    
+  <body id="home">
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Phono</h1>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+      $(function() {
+        const $gallery = $('.gallery a').simpleLightbox();
+      })
+    </script>
   </body>
 </html>
