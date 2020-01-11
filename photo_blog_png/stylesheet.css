@@ -17,13 +17,19 @@ header {
 #headline {
   margin-top: 69px;
   margin-left: 10px;
-}
-
-nav {
-  display: flex;
+  font-size: 35px;
+  color: #193441;
+  font-weight: normal;
 }
 
 nav ul {
+  display: flex;
+  /* background-color: white; */
   list-style: none;
-  
+  justify-content: space-around;
+  float: right;
+}
+
+li {
+  padding: 10px;
 }
