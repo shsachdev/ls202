@@ -11,7 +11,7 @@ header {
 
 #logo {
   margin-top: 15px;
-  margin-left: 187px;
+  margin-left: 225px;
 }
 
 #headline {
@@ -32,4 +32,19 @@ nav ul {
 
 li {
   padding: 10px;
+}
+
+article {
+  background-color: white;
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-left: 225px;
+  margin-right: 225px;
+}
+
+#cover {
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
