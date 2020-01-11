@@ -49,7 +49,7 @@ img {
 }
 
 .navbar .container {
-  display: grid;
+  display: block;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -59,4 +59,5 @@ img {
 
 .navbar .nav {
   justify-self: flex-end;
+  display: flex;
 }
