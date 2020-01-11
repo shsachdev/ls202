@@ -2,7 +2,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #d3ddc1
+  background-color: #d3ddc1;
+  color: #193441;
 }
 
 header {
@@ -22,16 +23,29 @@ header {
   font-weight: normal;
 }
 
+nav {
+  margin-right: 250px;
+}
+
 nav ul {
   display: flex;
-  /* background-color: white; */
   list-style: none;
   justify-content: space-around;
   float: right;
 }
 
-li {
-  padding: 10px;
+nav a {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #91aa9d;
+  display: block;
+  padding: 10px 40px 14px;
+  text-decoration: none;
+}
+
+ul li {
+  padding: 10px 0px;
+  background-color: white;
 }
 
 article {
@@ -47,4 +61,11 @@ article {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#title {
+  font-size: 30px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
