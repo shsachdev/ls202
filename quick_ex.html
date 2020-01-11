@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      html {
+        font-size: 32px;
+      }
+
+      main {
+        border: 1px solid blue;
+        padding: 10px;
+      }
+
+      section {
+        border: 1px solid red;
+        padding: 10px;
+      }
+
+      main::after {
+        clear: both;
+        content: "";
+        display: block;
+      }
+
+      .right {
+        float: right;
+      }
+
+      .left {
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="right">Right</section>
+      <section class="left">Left</section>
+    </main>
+  </body>
+</html>
