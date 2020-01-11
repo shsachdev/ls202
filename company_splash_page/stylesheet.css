@@ -1,5 +1,6 @@
 body {
-  background-image: url('bg_body.gif')
+  background-image: url('bg_body.gif');
+  font-family: Arial serif;
 }
 
 figure {
@@ -10,4 +11,28 @@ figure {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+section {
+  background-color: white;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 93px;
+  width: 1000px;
+}
+
+.sub-heading {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 5px;
+}
+
+.body_text {
+  line-height: 1.3;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
 }
