@@ -1,3 +1,29 @@
+@import url("whitespace-reset.css");
+
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #d3ddc1
+}
+
+header {
+  display: flex;
+}
+
+#logo {
+  margin-top: 15px;
+  margin-left: 187px;
+}
+
+#headline {
+  margin-top: 69px;
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  
 }
